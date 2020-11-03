@@ -15,8 +15,10 @@
 		die("Connection Failed : ". $conn->connect_error);
   }
   $query1 = "SELECT id FROM signup WHERE email = '$email' AND password = '$password'";
-  $query_result = mysqli_query($conn, $query1);
-  if (mysqli_num_rows($query_result) != 0) {
+  $result = mysqli_query($conn, $query1)
+                          or die($mysqli_error($conn));
+  $num = mysqli_num_rows($result);
+  if ($num != 0) {
     echo "User account already exists, please Signin";
   }
   else {
