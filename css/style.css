@@ -319,6 +319,30 @@ h1.pxp-page-header {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.postbutton {
+  position: absolute;
+  display: none;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #2eca6a;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 550;
+  padding: 1px 2px 1px 2px;
+  background-color: transparent;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.postbutton a {
+  text-decoration: none;
+  color: #fff;
+}
+.postbutton:hover {
+  background-color: #2eca6a;
+  border: 1px solid #2eca6a;
+  color: #fff;
+}
 @media (min-width: 1440px) {
   .col-xxl {
     -ms-flex-preferred-size: 0;
@@ -5059,6 +5083,17 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
   }
 }
 @media screen and (max-width: 991px) {
+  .postbutton {
+    position: absolute;
+    background-color: #2eca6a;
+    color: white;
+    display: block;
+    outline: none;
+    font-weight: normal;
+    border-radius: 6px;
+    padding: 2px 3px;
+    right: 65px;
+  }
   .pxp-nav {
     display: none;
     position: fixed;
@@ -5484,6 +5519,11 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
   }
 }
 @media screen and (max-width: 767px) {
+  .postbutton {
+    position: absolute;
+    display: block;
+    right: 65px;
+  }
   .pxp-logo.pxp-logo-nav {
     left: calc((100% - 540px) / 2 + 15px);
   }
