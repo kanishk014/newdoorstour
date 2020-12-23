@@ -5932,3 +5932,470 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
     font-size: 1.1rem;
   }
 }
+
+section.page-top {
+  margin: 0;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+section.page-top .container1 {
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(30%);
+
+  background-image: url(/service\ image/startbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+  0% {
+    background-image: url(/service\ image/ser1.jpg);
+  }
+  25% {
+    background-image: url(/service\ image/ser2.jpg);
+  }
+  50% {
+    background-image: url(/service\ image/ser3.jpg);
+  }
+  75% {
+    background-image: url(/service\ image/ser4.jpg);
+  }
+  100% {
+    background-image: url(/service\ image/ser2.jpg);
+  }
+}
+
+section .page-header {
+  text-align: center;
+  transform: translate(240px, -390px);
+  color: #fff;
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 3.5rem;
+}
+
+.header-font {
+  font-size: 35px;
+}
+.subtext {
+  text-align: center;
+  font-family: poppins;
+  transform: translate(242px, -400px);
+
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+section.box {
+  text-align: center;
+  transform: translate(50px, -380px);
+  padding: 1rem;
+}
+section.box .icon-wrapper .icon1 {
+  grid-area: nav1;
+}
+section.box .icon-wrapper .icon2 {
+  grid-area: nav2;
+}
+section.box .icon-wrapper .icon3 {
+  grid-area: nav3;
+}
+section.box .icon-wrapper .icon4 {
+  grid-area: nav4;
+}
+
+section.box .icon-wrapper {
+  display: grid;
+
+  width: 920px;
+  height: 160px;
+  grid-template-areas: "nav1 nav2 nav3 nav4";
+  transform: translateX(9%);
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px 0 rgba(48, 48, 48, 0.1);
+}
+
+section.box .icon-wrapper .icon {
+  text-align: center;
+  position: relative;
+  display: block;
+  height: 160px;
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 2rem;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  transition: all linear 0.5s;
+}
+section.box .icon-wrapper .icon img {
+  margin-bottom: 5px;
+  height: 64px;
+  width: 64px;
+  transition: all linear 0.5s;
+}
+section.box .icon-wrapper .icon img.hover-img {
+  position: absolute;
+  transform: translateX(-64px);
+  opacity: 0;
+}
+section.box .icon-wrapper .icon :hover img {
+  opacity: 0;
+}
+section.box .icon-wrapper .icon :hover img.hover-img {
+  opacity: 1;
+}
+section.box .icon-wrapper .icon a {
+  text-decoration: none;
+  color: #000;
+}
+section.box .icon-wrapper .icon p {
+  transition: all linear 0.5s;
+}
+section.box .icon-wrapper .icon :hover p {
+  color: #2eca6a;
+}
+section.box .icon-wrapper .icon:hover {
+  background-color: #d4ffe5;
+}
+
+section.services {
+  background-color: #fff;
+  height: 420px;
+  transform: translateY(-330px);
+}
+section.services .container .first-card h1 {
+  font-size: 29px;
+  margin-top: 9px;
+  font-family: poppins;
+}
+section.services .container .first-card {
+  padding-top: 6rem;
+}
+section.services .container .first-card p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  color: slategrey;
+  width: 270px;
+}
+section.services .container .first-card button {
+  border-radius: 5px;
+  padding: 5px 75px 5px 75px;
+  text-align: center;
+  color: #fff;
+
+  border: none;
+  background-color: #2aca6a;
+}
+section.services .container .first-card button:hover {
+  background-color: #25a95a;
+
+  transition: all 0.5s ease-in-out;
+}
+section.services .container .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 3rem;
+  grid-template-rows: 200px;
+  padding-bottom: 3rem;
+  transform: translate(250px, -180px);
+  padding: 2rem;
+  padding-top: 0.3rem;
+}
+section.services .container .card-wrapper .card {
+  background-color: #d4ffe5;
+}
+section.services .container .card-wrapper .card:hover {
+  box-shadow: 0 4px 22px 0 rgba(46, 43, 43, 0.1);
+  transition: 0.5s ease-in-out;
+}
+section.services .card-wrapper p {
+  text-align: center;
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #333;
+}
+
+section.services2 {
+  background-color: #e6fdef;
+  height: 420px;
+  transform: translateY(-300px);
+}
+section.services2 .container .first-card h1 {
+  font-size: 29px;
+  margin-top: 9px;
+  font-family: poppins;
+}
+section.services2 .container .first-card p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  color: slategrey;
+  width: 270px;
+}
+section.services2 .container .first-card {
+  padding-top: 6rem;
+}
+section.services2 .container .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 3rem;
+  grid-template-rows: 200px;
+  padding-bottom: 3rem;
+  transform: translate(250px, -180px);
+  padding: 2rem;
+  padding-top: 0.3rem;
+}
+section.services2 .container .first-card button {
+  border-radius: 5px;
+  padding: 5px 75px 5px 75px;
+  text-align: center;
+  color: #fff;
+
+  border: none;
+  background-color: #2aca6a;
+}
+section.services2 .container .first-card button:hover {
+  background-color: #25a95a;
+
+  transition: all 0.5s ease-in-out;
+}
+section.services2 .container .card-wrapper .card {
+  background-color: #d4ffe5;
+}
+section.services2 .container .card-wrapper .card:hover {
+  box-shadow: 0 4px 22px 0 rgba(46, 43, 43, 0.1);
+  transition: 0.5s ease-in-out;
+}
+section.services3 {
+  background-color: #fff;
+  height: 420px;
+  transform: translateY(-300px);
+}
+section.services3 .container .first-card h1 {
+  font-size: 29px;
+  margin-top: 9px;
+  font-family: poppins;
+}
+section.services3 .container .first-card {
+  padding-top: 6rem;
+}
+section.services3 .container .first-card p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  color: slategrey;
+  width: 270px;
+}
+section.services3 .container .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 3rem;
+  grid-template-rows: 200px;
+  padding-bottom: 3rem;
+  transform: translate(250px, -180px);
+  padding: 2rem;
+  padding-top: 0.3rem;
+}
+section.services3 .container .first-card button {
+  border-radius: 5px;
+  padding: 5px 75px 5px 75px;
+  text-align: center;
+  color: #fff;
+
+  border: none;
+  background-color: #2aca6a;
+}
+section.services3 .container .first-card button:hover {
+  background-color: #25a95a;
+
+  transition: all 0.5s ease-in-out;
+}
+section.services3 .container .card-wrapper .card {
+  background-color: #d4ffe5;
+}
+section.services3 .container .card-wrapper .card:hover {
+  box-shadow: 0 4px 22px 0 rgba(46, 43, 43, 0.1);
+  transition: 0.5s ease-in-out;
+}
+
+section.services4 {
+  background-color: #e6fdef;
+  height: 420px;
+  transform: translateY(-300px);
+}
+section.services4 .container .first-card h1 {
+  font-size: 29px;
+  margin-top: 9px;
+  font-family: poppins;
+}
+section.services4 .container .card-wrapper .card {
+  background-color: #d4ffe5;
+}
+section.services4 .container .first-card {
+  padding-top: 6rem;
+}
+section.services4 .container .first-card p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  color: slategrey;
+  width: 270px;
+}
+section.services4 .container .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 3rem;
+  grid-template-rows: 200px;
+  padding-bottom: 3rem;
+  transform: translate(250px, -180px);
+  padding: 2rem;
+  padding-top: 0.3rem;
+}
+section.services4 .container .first-card button {
+  border-radius: 5px;
+  padding: 5px 75px 5px 75px;
+  text-align: center;
+  color: #fff;
+
+  border: none;
+  background-color: #2aca6a;
+}
+section.services4 .container .first-card button:hover {
+  background-color: #25a95a;
+
+  transition: all 0.5s ease-in-out;
+}
+section.services4 .container .card-wrapper .card:hover {
+  box-shadow: 0 4px 22px 0 rgba(46, 43, 43, 0.1);
+  transition: 0.5s ease-in-out;
+}
+
+.testimonials {
+  width: 1200px;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+  transform: translate(80px, -250px);
+  margin-bottom: -250px;
+}
+.testimonials .section-heading {
+  text-align: center;
+
+  padding-top: 1.5rem;
+  padding-bottom: 0.8rem;
+}
+.testimonials .section-heading span {
+  color: #2eca6a;
+  margin-left: 0.5rem;
+}
+
+.testimonials .card-wrapper .navigation-slide {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.testimonials .card-wrapper .navigation-slide .bar-slide {
+  height: 15px;
+  width: 15px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: 1s;
+}
+.testimonials .card-wrapper .navigation-slide .bar-slide:not(:last-child) {
+  margin-right: 6px;
+}
+
+.testimonials .card-wrapper .navigation-slide .bar-slide:hover {
+  background: rgb(124, 119, 119);
+}
+input[name="r"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.testimonials .card-wrapper {
+  padding-top: 2rem;
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+.testimonials .card-wrapper .card {
+  padding-left: 3rem;
+  width: 20%;
+  height: 360px;
+  width: 1200px;
+  transition: 1s ease;
+}
+
+.testimonials .card-wrapper .card img {
+  width: 70px;
+  height: 80px;
+  border-radius: 100px;
+}
+.testimonials .card-wrapper .card .img-wrapper h1 {
+  font-size: 30px;
+  font-weight: 5px;
+  transform: translate(100px, -60px);
+}
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+#r2:checked ~ .s2 {
+  margin-left: -20%;
+}
+#r3:checked ~ .s3 {
+  margin-left: -40%;
+}
+#r4:checked ~ .s4 {
+  margin-left: -60%;
+}
+.testimonials .card-wrapper .navigation-auto {
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+.testimonials .card-wrapper .navigation-auto div {
+  border: 0px solid #000;
+  cursor: pointer;
+  transition: 1s;
+}
+.testimonials .card-wrapper .navigation-auto div:not(:last-child) {
+  margin-right: 6px;
+}
+#r1:checked ~ .navigation-auto .auto-btn1 {
+  background: white;
+}
+#r2:checked ~ .navigation-auto .auto-btn2 {
+  background: white;
+}
+#r3:checked ~ .navigation-auto .auto-btn3 {
+  background: white;
+}
+#r4:checked ~ .navigation-auto .auto-btn4 {
+  background: white;
+}
