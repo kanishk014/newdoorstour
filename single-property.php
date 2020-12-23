@@ -115,7 +115,7 @@
                 <a href="services.html">Services</a>
               </li>
               <li class="list-inline-item">
-                <a href="blog.html">Blog</a>
+                <a href="blog.php">Blog</a>
 
               </li>
               <li class="list-inline-item pxp-is-last">
@@ -1015,7 +1015,7 @@
                 <ul class="list-unstyled pxp-footer-links mt-2">
                   <li><a href="about.html">About Us</a></li>
                   <li><a href="agents.html">Agents</a></li>
-                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="blog.php">Blog</a></li>
                   <li><a href="#">Sitemap</a></li>
                   <li><a href="contact.html">Contact Us</a></li>
                 </ul>
