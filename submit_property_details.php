@@ -395,9 +395,9 @@ $location_address = $_POST['pxp-submit-property-address-name'];
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //SQL STARTS DATABASE HERE
 $hostname = "localhost";
-$username = "jtmdrjci_admin";
-$password = "Jaisairam11*";
-$db_name = "jtmdrjci_doorstour";
+$username = "root";
+$password = "";
+$db_name = "doorstour";
 
 //1.CREATE CONNECTION TO DB
 $conn = new mysqli($hostname,$username,$password,$db_name,'3306');
