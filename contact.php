@@ -51,9 +51,9 @@
                 <a href="#">Properties</a>
                 <ul class="pxp-nav-sub rounded-lg">
                   <li><a href="properties.php">Buy</a></li>
-                  <li><a href="single-property.php">Rent</a></li>
+                  <li><a href="rent.php">Rent</a></li>
                   <li>
-                    <a href="submit-property.html">PG</a>
+                    <a href="pg.php">PG</a>
                   </li>
                 </ul>
               </li>
@@ -72,7 +72,7 @@
                 <a href="services.html">Services</a>
               </li>
               <li class="list-inline-item">
-                <a href="blog.php">Blog</a>
+                <a href="blog.html">Blog</a>
                 
               </li>
               <li class="list-inline-item pxp-is-last">
@@ -84,7 +84,7 @@
               </li>
               <li class="list-inline-item">
                 <div class="pxp-user-btns">
-                  <a href="https://property.doorstour.com/"
+                  <a href="submit-property.html"
                     ><button
                       class="pxp-user-btns"
                       style="
@@ -113,7 +113,6 @@
             </ul>
           </div>
           <div class="col-5 col-md-2 text-right">
-          <button class="postbutton"><a href="submit-property.html">Post property</a></button>
             <a href="javascript:void(0);" class="pxp-header-nav-trigger"
               ><span class="fa fa-bars"></span
             ></a>
@@ -126,6 +125,7 @@
         </div>
       </div>
     </div>
+    <!-- Header End -->
 <!----------------------------------------end header logic starts--------------------------------------------------->
 
 <?php
@@ -236,15 +236,15 @@ echo("<br>");
                 <h4 class="pxp-footer-header mt-4 mt-lg-0">Actions</h4>
                 <ul class="list-unstyled pxp-footer-links mt-2">
                   <li><a href="properties.php">Buy Properties</a></li>
-                  <li><a href="properties.php">Rent Properties</a></li>
+                  <li><a href="rent.php">Rent Properties</a></li>
                   <li><a href="submit-property.html">Sell Properties</a></li>
                 </ul>
               </div>
               <div class="col-sm-12 col-md-4">
                 <h4 class="pxp-footer-header mt-4 mt-lg-0">Explore</h4>
                 <ul class="list-unstyled pxp-footer-links mt-2">
-                  <li><a href="properties.php">Homes for Rent</a></li>
-                  <li><a href="properties.php">Apartments for Rent</a></li>
+                  <li><a href="rent.php">Homes for Rent</a></li>
+                  <li><a href="rent.php">Apartments for Rent</a></li>
                   <li><a href="properties.php">Homes for Sale</a></li>
                   <li><a href="properties.php">Apartments for Sale</a></li>
                   
@@ -271,7 +271,7 @@ echo("<br>");
             <a href="privacypolicy.html">Privacy Policy</a>
           </div>
           <div class="pxp-footer-copyright">
-            &copy; DoorsTour All Rights Reserved. 2020
+            &copy; DoorsTour All Rights Reserved. 2021
           </div>
         </div>
       </div>

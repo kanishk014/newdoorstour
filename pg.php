@@ -1,6 +1,6 @@
 <?php
   require_once 'templatedata.php';
-  $stmt = $conn->prepare("SELECT * FROM template1");
+  $stmt = $conn->prepare("SELECT * FROM pg");
   $stmt->execute();
   $array = [];
   $array1 = [];
@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style0f71.css?asdsdd" />
 
-    <title>DoorsTour</title>
+    <title>PGs - DoorsTour</title>
   </head>
   <body>
 
@@ -146,7 +146,6 @@
       </div>
     </div>
     <!-- Header End -->
-
     <div class="pxp-content pxp-full-height">
       <div class="pxp-map-side pxp-map-right pxp-half">
         <!-- <div id="results-map"></div>
@@ -427,7 +426,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-6 col-xxxl-4">
               <a
-                href="single-property.php?id=<?php echo $array[0]; ?>"
+                href="single-pg.php?id=<?php echo $array[0]; ?>"
                 class="pxp-results-card-1 rounded-lg"
                 data-prop="1"
               >
@@ -489,7 +488,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-xxxl-4">
               <a
-                href="single-property.php?id=<?php echo $array[1]; ?>"
+                href="single-pg.php?id=<?php echo $array[1]; ?>"
                 class="pxp-results-card-1 rounded-lg"
                 data-prop="2"
               >
@@ -551,7 +550,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-xxxl-4">
               <a
-                href="single-property.php?id=<?php echo $array[2]; ?>"
+                href="single-pg.php?id=<?php echo $array[2]; ?>"
                 class="pxp-results-card-1 rounded-lg"
                 data-prop="3"
               >
@@ -613,7 +612,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-xxxl-4">
               <a
-                href="single-property.php?id=<?php echo $array[3]; ?>"
+                href="single-pg.php?id=<?php echo $array[3]; ?>"
                 class="pxp-results-card-1 rounded-lg"
                 data-prop="4"
               >
@@ -677,7 +676,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-xxxl-4">
               <a
-                href="single-property.php?id=<?php echo $array[4]; ?>"
+                href="single-pg.php?id=<?php echo $array[4]; ?>"
                 class="pxp-results-card-1 rounded-lg"
                 data-prop="5"
               >
@@ -741,7 +740,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-xxxl-4">
               <a
-                href="single-property.php?id=<?php echo $array[5]; ?>"
+                href="single-pg.php?id=<?php echo $array[5]; ?>"
                 class="pxp-results-card-1 rounded-lg"
                 data-prop="6"
               >

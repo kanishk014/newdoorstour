@@ -3,7 +3,7 @@
   $res = $_GET['id'];
   //echo "<script>console.log('" . json_encode($res) . "')</script>";
   //$query = "Select * FROM facility WHERE id = $res";
-  $query1 = "Select * FROM template1 WHERE id = $res";
+  $query1 = "Select * FROM rent WHERE id = $res";
   //$result = mysqli_query($conn, $query);
   $result1 = mysqli_query($conn, $query1);
   while($row = mysqli_fetch_assoc($result1)){
