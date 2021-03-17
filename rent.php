@@ -45,7 +45,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style0f71.css?asdsdd" />
 
-    <title>PGs - DoorsTour</title>
+    <title>Properties for Rent - DoorsTour</title>
   </head>
   <body>
 
