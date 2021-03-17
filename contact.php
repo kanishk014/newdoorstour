@@ -148,9 +148,9 @@ $message_details = $_POST["pxp-contact-form-message-name"];
 
 //////  connect to database
 $hostname = "localhost";
-$username = "jtmdrjci_admin";
-$password = "Jaisairam11*";
-$db_name = "jtmdrjci_doorstour";
+$username = "admin";
+$password = "";
+$db_name = "doorstour";
 
 //1.CREATE CONNECTION TO DB
 $conn = new mysqli($hostname,$username,$password,$db_name,'3306');
