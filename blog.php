@@ -126,7 +126,7 @@
                 <a href="services.html">Services</a>
               </li>
               <li class="list-inline-item">
-                <a href="blog.html">Blog</a>
+                <a href="blog.php">Blog</a>
                 
               </li>
               <li class="list-inline-item pxp-is-last">
@@ -479,7 +479,7 @@
                     <div class="pxp-posts-1-item-fig-container">
                       <div
                         class="pxp-posts-1-item-fig pxp-cover"
-                        style="background-image: url(images/post-3.jpg)"
+                        style="background-image: url(<?php echo $array9[2] ?>)"
                       ></div>
                     </div>
                     <div class="pxp-posts-1-item-details">
@@ -503,7 +503,7 @@
                     <div class="pxp-posts-1-item-fig-container">
                       <div
                         class="pxp-posts-1-item-fig pxp-cover"
-                        style="background-image: url(images/post-4.jpg)"
+                        style="background-image: url(<?php echo $array9[3] ?>)"
                       ></div>
                     </div>
                     <div class="pxp-posts-1-item-details">
@@ -527,7 +527,7 @@
                     <div class="pxp-posts-1-item-fig-container">
                       <div
                         class="pxp-posts-1-item-fig pxp-cover"
-                        style="background-image: url(images/post-5.jpg)"
+                        style="background-image: url(<?php echo $array9[4] ?>)"
                       ></div>
                     </div>
                     <div class="pxp-posts-1-item-details">
@@ -551,7 +551,7 @@
                     <div class="pxp-posts-1-item-fig-container">
                       <div
                         class="pxp-posts-1-item-fig pxp-cover"
-                        style="background-image: url(images/post-6.jpg)"
+                        style="background-image: url(<?php echo $array9[5] ?>)"
                       ></div>
                     </div>
                     <div class="pxp-posts-1-item-details">

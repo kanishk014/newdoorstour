@@ -115,7 +115,7 @@
                 <a href="services.html">Services</a>
               </li>
               <li class="list-inline-item">
-                <a href="blog.html">Blog</a>
+                <a href="blog.php">Blog</a>
                 
               </li>
               <li class="list-inline-item pxp-is-last">

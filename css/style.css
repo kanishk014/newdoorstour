@@ -5517,6 +5517,12 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
   .pxp-dark-mode .pxp-services-h .pxp-primary-cta:after {
     border-top: 2px solid #fff;
   }
+  #divToHideOnMobile {
+    display: none !important;
+  }
+  #divToHideOnDesktop {
+    display: block !important;
+  }
 }
 @media screen and (max-width: 767px) {
   .postbutton {
@@ -5779,6 +5785,12 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
   .pxp-contact-hero-offices-info .pxp-is-address {
     display: none;
   }
+  #divToHideOnMobile {
+    display: none !important;
+  }
+  #divToHideOnDesktop {
+    display: block !important;
+  }
 }
 @media screen and (max-width: 575px) {
   .pxp-header,
@@ -5965,6 +5977,12 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
     width: 100%;
     font-size: 1.1rem;
   }
+  #divToHideOnMobile {
+    display: none !important;
+  }
+  #divToHideOnDesktop {
+    display: block !important;
+  }
 }
 
 /* Post a property button */
@@ -5974,4 +5992,8 @@ fieldset[disabled] .checkbox.custom-checkbox input:checked + span {
   background-color: #2eca6a;
   color: white;
   border-radius: 5px;
+}
+
+#divToHideOnDesktop {
+  display: none;
 }

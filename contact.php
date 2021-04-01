@@ -72,7 +72,7 @@
                 <a href="services.html">Services</a>
               </li>
               <li class="list-inline-item">
-                <a href="blog.html">Blog</a>
+                <a href="blog.php">Blog</a>
                 
               </li>
               <li class="list-inline-item pxp-is-last">
@@ -129,6 +129,7 @@
 <!----------------------------------------end header logic starts--------------------------------------------------->
 
 <?php
+require_once 'templatedata2.php';
 
 
 $name_enquiry = "";
@@ -146,19 +147,7 @@ $message_details = $_POST["pxp-contact-form-message-name"];
 
 
 
-//////  connect to database
-$hostname = "localhost";
-$username = "admin";
-$password = "";
-$db_name = "doorstour";
 
-//1.CREATE CONNECTION TO DB
-$conn = new mysqli($hostname,$username,$password,$db_name,'3306');
-
-
-if($conn->connect_error){
-    die("CANNOT LOAD DATA PROPERLY , INCORRECT FORMAT".$conn->connect_error);
-}
 
 
 //2. CREATING TABLE . UNCOMMENT FOR FIRST TIME CREATION ELSE COMMENT ALWAYS AND DISABLE UNNECESSARY SUCCESSFULL CREATION MSG AND DISPLAY ERROR MSG ONLY
