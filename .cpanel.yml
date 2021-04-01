@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jtmdrjci/public_html/doorstour.com
+    - /bin/cp * $DEPLOYPATH
